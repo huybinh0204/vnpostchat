@@ -1,0 +1,9 @@
+export const ACTION_CHECK_LOGIN = 'ACTION_CHECK_LOGIN';
+export const ACTION_LISTEN_LOGIN = 'ACTION_LISTEN_LOGIN';
+export const ERROR = 'ERROR';
+export const SUCCESS = 'SUCCESS';
+
+export const CHANGE_ICON_IMAGE = 'CHANGE_ICON_IMAGE';
+export const CHANGE_ICON_VIDEO = 'CHANGE_ICON_VIDEO';
+
+export const TICK_BOX_CHECK = 'TICK_BOX_CHECK';
