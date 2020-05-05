@@ -2,12 +2,10 @@ import React, {Component} from 'react';
 import BottomTabNavigator from './BottomTabNavigator';
 import ChatScreen from '../components/ChatScreen';
 import NewMessageNavigator from './NewMessageNavigator';
-import FriendRequestComponent from '../components/FriendRequestComponent';
-import NewStatusComponent from '../components/NewStatusComponent';
-import NotificationComponent from '../components/NotificationComponent';
+import FriendRequestContainer from '../screens/Contact/FriendRequestContainer';
+import NewStatusContainer from '../screens/NewsFeed/NewStatusContainer';
+import NotificationComponent from '../screens/NewsFeed/NotificationComponent';
 import {createStackNavigator} from '@react-navigation/stack';
-import NewStatusContainer from '../containers/NewStatusContainer';
-import FriendRequestContainer from '../containers/FriendRequestContainer';
 
 const Stack = createStackNavigator();
 

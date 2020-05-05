@@ -1,7 +1,5 @@
-import ContactListComponent from '../components/ContactListComponent';
-import SearchContactComponent from '../components/SearchContactComponent';
 import ContactTopTabNavigator from '../navigators/ContactTopTabNavigator';
-import AddFriendComponent from '../components/AddFriendComponent';
+import AddFriendContainer from '../screens/Contact/AddFriendContainer';
 
 export default [
   {
@@ -13,6 +11,6 @@ export default [
   },
   {
     name: 'AddFriend',
-    component: AddFriendComponent,
+    component: AddFriendContainer,
   },
 ];

@@ -2,9 +2,9 @@ import React, {Component} from 'react';
 import {View, Text, Image} from 'react-native';
 import {createStackNavigator} from '@react-navigation/stack';
 import router from '../routerConfig/router.group';
-import SearchGroupComponent from '../components/SearchGroupComponent';
-import GroupListContainer from '../containers/GroupListContainer';
-import NewGroupContainer from '../containers/NewGroupContainer';
+import SearchGroupComponent from '../screens/Group/SearchGroupComponent';
+import GroupListContainer from '../screens/Group/GroupListContainer';
+import NewGroupContainer from '../screens/Group/NewGroupContainer';
 
 const Stack = createStackNavigator();
 

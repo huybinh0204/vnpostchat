@@ -1,9 +1,9 @@
-import NewsFeedComponent from '../components/NewsFeedComponent';
+import NewsFeedContainer from '../screens/NewsFeed/NewsFeedContainer';
 
 export default [
   {
     name: 'NewsFeed',
-    component: NewsFeedComponent,
+    component: NewsFeedContainer,
     option: {
       title: 'Bảng tin',
     },

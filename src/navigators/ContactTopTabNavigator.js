@@ -2,8 +2,8 @@ import {createMaterialTopTabNavigator} from '@react-navigation/material-top-tabs
 import React, {Component} from 'react';
 import router from '../routerConfig/router.contacttoptab';
 import {TouchableOpacity, Image} from 'react-native';
-import ContactListContainer from '../containers/ContactListContainer';
-import FriendSuggestionContainer from '../containers/FriendSuggestionContainer';
+import ContactListContainer from '../screens/Contact/ContactListContainer';
+import FriendSuggestionContainer from '../screens/Contact/FriendSuggestionContainer';
 
 const Top = createMaterialTopTabNavigator();
 
