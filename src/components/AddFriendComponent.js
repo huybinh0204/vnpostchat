@@ -4,6 +4,7 @@ import {SearchBar} from 'react-native-elements';
 
 class AddFriendComponent extends Component {
   render() {
+    //abcsdasdasd
     return (
       <View
         style={{flexDirection: 'row', width: 400, height: 40, marginTop: 10}}>
@@ -19,6 +20,7 @@ class AddFriendComponent extends Component {
           placeholder="Tìm kiếm tên bạn bè hoặc số điện thoại..."
           placeholderTextColor="grey"
         />
+        
         <TouchableOpacity
           style={{
             width: 60,
@@ -29,7 +31,7 @@ class AddFriendComponent extends Component {
             borderRadius: 20,
             marginRight: 50,
           }}>
-          {/*<Image source={require('../../asset/images/icon-search.png')} />*/}
+         
         </TouchableOpacity>
       </View>
     );
