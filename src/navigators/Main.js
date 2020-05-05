@@ -2,15 +2,15 @@ import * as React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 
-import Signup from '../components/Signup';
-import CheckSignup from '../components/CheckSignup';
-import ChangePassword from '../components/ChangePassword';
-import CheckPass from '../components/CheckPass';
-import NewPass from '../components/NewPass';
+import Signup from '../screens/Signup/Signup';
+import CheckSignup from '../screens/Signup/CheckSignup';
+import ChangePassword from '../screens/Login/ChangePassword';
+import CheckPass from '../screens/Login/CheckPass';
+import NewPass from '../screens/Login/NewPass';
 import HomeNavigator from '../navigators/HomeNavigator';
-import IntroComponent from '../components/IntroComponent';
-import LoginContainer from '../containers/LoginContainer';
-import LoginComponent from '../components/LoginComponent';
+import IntroComponent from '../screens/Login/IntroComponent';
+import LoginContainer from '../screens/Login/LoginContainer';
+import LoginComponent from '../screens/Login/LoginComponent';
 const Stack = createStackNavigator();
 
 function Main() {

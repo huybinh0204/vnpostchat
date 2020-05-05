@@ -1,13 +1,13 @@
-import ContactListComponent from '../components/ContactListComponent';
-import FriendSuggestionComponent from '../components/FriendSuggestionComponent';
+import ContactListContainer from '../screens/Contact/ContactListContainer';
+import FriendSuggestionContainer from '../screens/Contact/FriendSuggestionContainer';
 
 export default [
   {
     name: 'ContactList',
-    component: ContactListComponent,
+    component: ContactListContainer,
   },
   {
     name: 'FriendSuggestion',
-    component: FriendSuggestionComponent,
+    component: FriendSuggestionContainer,
   },
 ];

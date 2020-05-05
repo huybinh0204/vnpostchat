@@ -3,7 +3,7 @@ import {View, Text, Image} from 'react-native';
 import {createStackNavigator} from '@react-navigation/stack';
 import router from '../routerConfig/router.newsfeed';
 import SearchNavigator from './SearchNavigator';
-import NewsFeedContainer from '../containers/NewsFeedContainer';
+import NewsFeedContainer from '../screens/NewsFeed/NewsFeedContainer';
 
 const Stack = createStackNavigator();
 

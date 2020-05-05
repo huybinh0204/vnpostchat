@@ -1,13 +1,13 @@
-import GroupListComponent from '../components/GroupListComponent';
-import NewGroupComponent from '../components/NewGroupComponent';
+import GroupListContainer from '../screens/Group/GroupListContainer';
+import NewGroupContainer from '../screens/Group/NewGroupContainer';
 
 export default [
   {
     name: 'GroupList',
-    component: GroupListComponent,
+    component: GroupListContainer,
   },
   {
     name: 'NewGroup',
-    component: NewGroupComponent,
+    component: NewGroupContainer,
   },
 ];

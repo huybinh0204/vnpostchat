@@ -1,10 +1,10 @@
-import ConversationListComponent from '../components/ConversationListComponent';
 import SearchNavigator from '../navigators/SearchNavigator';
+import ConversaionListContainer from '../screens/Conversation/ConversaionListContainer';
 
 export default [
   {
     name: 'ConversationList',
-    component: ConversationListComponent,
+    component: ConversaionListContainer,
     option: {
       title: 'Trò chuyện',
     },

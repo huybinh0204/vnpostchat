@@ -2,10 +2,10 @@ import React, {Component} from 'react';
 import {View, Text, Image} from 'react-native';
 import {createStackNavigator} from '@react-navigation/stack';
 import router from '../routerConfig/router.contact';
-import SearchContactComponent from '../components/SearchContactComponent';
+import SearchContactComponent from '../screens/Contact/SearchContactComponent';
 import ContactTopTabNavigator from './ContactTopTabNavigator';
-import AddFriendContainer from '../containers/AddFriendContainer';
-import FriendRequestComponent from '../containers/FriendRequestContainer';
+import AddFriendContainer from '../screens/Contact/AddFriendContainer';
+import FriendRequestContainer from '../screens/Contact/FriendRequestContainer';
 const Stack = createStackNavigator();
 
 class ContactNavigator extends Component {

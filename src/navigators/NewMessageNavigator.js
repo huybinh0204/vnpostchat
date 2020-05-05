@@ -1,7 +1,7 @@
 import {createMaterialTopTabNavigator} from '@react-navigation/material-top-tabs';
 import React, {Component} from 'react';
-import RecentComponent from '../components/RecentComponent';
-import NewMessageContactContainer from '../containers/NewMessageContactContainer';
+import RecentComponent from '../screens/Conversation/RecentComponent';
+import NewMessageContactContainer from '../screens/Conversation/NewMessageContactContainer';
 
 const Top = createMaterialTopTabNavigator();
 

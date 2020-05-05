@@ -1,9 +1,7 @@
 import React, {Component} from 'react';
 import {createMaterialTopTabNavigator} from '@react-navigation/material-top-tabs';
 import {Image, TextInput, TouchableOpacity, View} from 'react-native';
-import SearchContactContainer from '../containers/SearchContactContainer';
-import SearchMessageContainer from '../containers/SearchMessageContainer';
-import SearchAllContainer from '../containers/SearchAllContainer';
+import SearchContactContainer from '../screens/Contact/SearchContactContainer';
 
 export const Top = createMaterialTopTabNavigator();
 
@@ -38,9 +36,7 @@ class SearchNavigator extends Component {
 
     return (
       <Top.Navigator initialRouteName="SearchAll">
-        <Top.Screen name="TẤT CẢ" component={SearchAllContainer} />
         <Top.Screen name="BẠN BÈ" component={SearchContactContainer} />
-        <Top.Screen name="TIN NHẮN" component={SearchMessageContainer} />
       </Top.Navigator>
     );
   }

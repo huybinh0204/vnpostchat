@@ -3,8 +3,7 @@ import {View, Text, Image} from 'react-native';
 import {createStackNavigator} from '@react-navigation/stack';
 import router from '../routerConfig/router.conversation';
 import SearchNavigator from './SearchNavigator';
-import ChatScreen from '../components/ChatScreen';
-import ConversaionListContainer from '../containers/ConversaionListContainer';
+import ConversaionListContainer from '../screens/Conversation/ConversaionListContainer';
 
 const Stack = createStackNavigator();
 
